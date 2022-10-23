@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LGE">
+      <UniqueIdentifier>{9DFF870B-0909-887C-9284-9E7CFE8C937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LGE\Events">
+      <UniqueIdentifier>{E1588830-CD10-CA7D-3618-A3D922EF646E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\LGE.h" />
+    <ClInclude Include="src\LGE\Application.h">
+      <Filter>LGE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LGE\Core.h">
+      <Filter>LGE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LGE\EntryPoint.h">
+      <Filter>LGE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LGE\Events\ApplicationEvent.h">
+      <Filter>LGE\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LGE\Events\Event.h">
+      <Filter>LGE\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LGE\Events\KeyEvent.h">
+      <Filter>LGE\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LGE\Events\MouseEvent.h">
+      <Filter>LGE\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LGE\Log.h">
+      <Filter>LGE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lgepch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LGE\Application.cpp">
+      <Filter>LGE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LGE\Log.cpp">
+      <Filter>LGE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lgepch.cpp" />
+  </ItemGroup>
+</Project>
